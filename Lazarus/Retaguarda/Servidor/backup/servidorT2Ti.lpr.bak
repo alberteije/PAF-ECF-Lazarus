@@ -1,0 +1,10 @@
+program servidorT2Ti;
+
+{$mode objfpc}{$H+}
+
+uses
+  Interfaces, BrookApplication, Brokers, Produto, DavCabecalho, DavDetalhe, Contador, Sintegra, SpedFiscal, Biblioteca, EmpresaEnderecoVO;
+
+begin
+  BrookApp.Run;
+end.

@@ -1,0 +1,21 @@
+object FDataModule: TFDataModule
+  OldCreateOrder = False
+  left = 773
+  top = 179
+  Height = 127
+  HorizontalOffset = 546
+  VerticalOffset = 289
+  Width = 288
+  object ConexaoBalcao: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    HostName = 'localhost'
+    Port = 0
+    Database = 'retaguarda'
+    User = 'root'
+    Password = 'root'
+    Protocol = 'mysql'
+    left = 40
+    top = 16
+  end
+end

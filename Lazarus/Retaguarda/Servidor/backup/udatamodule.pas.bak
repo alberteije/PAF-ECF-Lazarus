@@ -1,0 +1,31 @@
+unit UDataModule;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, ACBrSpedFiscal, ACBrSintegra;
+
+type
+
+  { TFDataModule }
+
+  TFDataModule = class(TDataModule)
+    ACBrSintegra: TACBrSintegra;
+    ACBrSPEDFiscal: TACBrSPEDFiscal;
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  FDataModule: TFDataModule;
+
+implementation
+
+{$R *.lfm}
+
+end.
+
