@@ -25,7 +25,7 @@
 								<li>Outros.</li>
 							</ul>						<h2>Balcão</h2>
 							<center>
-								<img src=".http://www.alberteije.com/images/telas/lazarus_balcao.png" alt="telas" />
+								<img src="http://www.alberteije.com/images/telas/lazarus_balcao.png" alt="telas" />
 							</center>
 							<br />
 							<ul>
